@@ -1,0 +1,26 @@
+html, body {
+    font-family: "copperplate", fantasy;
+
+}
+
+.wrapper {
+    padding:0%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: #EC4E20;
+
+    
+}
+
+ul .navigation, li {
+    cursor: pointer;
+    border-bottom: 1px solid orange;
+    transition: border 0.2s;
+  }
+
+ul li:hover {
+    border-color:white;
+}
