@@ -89,32 +89,55 @@ aside .image {
 aside img {
     justify-content: center;
     width: 60%;
-    border: 10px solid #FEC0AA;
+    border: 40px solid #FEC0AA;
     
 
 }
 
-article .list {
+.list-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
-   column-gap: 50px;
+    margin: 40px;
 }
 
-ul .experties {
+.list {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    height: 250px;
+    width: 300px;
+    border: 40px solid #ec8262; 
+
+}
+
+h5 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul .experties, li {
+.experties {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #ec8262;
+
+    
+}
+
+
+ul.experties, li {
     cursor: pointer;
     border-bottom: 1px solid #ec8262;
     transition: border 0.2s;
-}
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+  }
 
 
