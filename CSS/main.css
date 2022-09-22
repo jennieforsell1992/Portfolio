@@ -171,17 +171,18 @@ ul.experties, li {
     img {
         width: 83%;
         border: 40px solid #FFE7DF;
-        margin: 38px;
+        margin: 35px;
 
     }
 
     .list-container {
         padding-right: 150px;
+        margin-top: 25px;
     }
 
  .list {
     width: 435px;
-    height: 349px;
+    height: 350px;
     border: 50px solid #FFE7DF; 
  }
 
