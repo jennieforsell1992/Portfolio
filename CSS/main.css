@@ -52,17 +52,13 @@ color: #ec8262;
 animation: go 4s 1;
 }
 
-.space {
-    background-color: white;
-    height: 15px;
-}
-
 section .create, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F7B6A3; 
     height: 11vw;
+    margin-top: 20px;
 }
 
 h3 {
@@ -143,7 +139,7 @@ ul.experties, li {
     
   }
 
-  footer.container {
+  footer.container-fluid {
     height: 50px;
     background-color: #F7B6A3;
     color: #FFE7DF
@@ -160,6 +156,7 @@ ul.experties, li {
     }
     section .create, h3 {
         height: 5vw;
+        font-size:xx-large;
     }
 
     main {
