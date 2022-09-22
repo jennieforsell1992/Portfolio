@@ -87,7 +87,7 @@ aside .image {
 
 }
 
-aside img {
+img {
     justify-content: center;
     width: 60%;
     border: 40px solid #FFE7DF;
@@ -151,12 +151,51 @@ ul.experties, li {
 
   
 @media screen and (min-width: 768px) {
+    
+    
     .wrapper {
         justify-content: flex-end;
+        font-size:x-large;
+        
     }
     section .create, h3 {
         height: 5vw;
     }
+
+    main {
+        flex-direction: row;
+
+    }
+
+    .image-container{
+        padding-left: 150px;
+    }
+
+    img {
+        width: 83%;
+        border: 40px solid #FFE7DF;
+        margin: 38px;
+
+    }
+
+    .list-container {
+        padding-right: 150px;
+    }
+
+ .list {
+    width: 435px;
+    height: 349px;
+    border: 50px solid #FFE7DF; 
+ }
+
+ h5 {
+    font-size:xx-large;
+ }
+
+ .experties {
+    font-size:x-large;
+ }
+
 
 }
 
