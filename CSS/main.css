@@ -16,7 +16,7 @@ margin: 0px;
     
 }
 
-ul .wrapper, li {
+ ul li {
     cursor: pointer;
     border-bottom: 1px solid #ec8262;
     transition: border 0.2s;
