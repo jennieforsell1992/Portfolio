@@ -80,6 +80,7 @@ aside .image {
 .image-container {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 
 }
 
@@ -87,6 +88,7 @@ img {
     justify-content: center;
     width: 60%;
     border: 40px solid #FFE7DF;
+   
     
 
 }
@@ -171,7 +173,7 @@ ul.experties, li {
     img {
         width: 83%;
         border: 40px solid #FFE7DF;
-        margin: 35px;
+        margin-top: -5px;
 
     }
 
@@ -193,6 +195,8 @@ ul.experties, li {
  .experties {
     font-size:x-large;
  }
+
+
 
 
 }
