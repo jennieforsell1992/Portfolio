@@ -83,7 +83,7 @@ aside .image {
 
 img {
     justify-content: center;
-    width: 60%;
+    width: 75%;
     border: 40px solid #FFE7DF;
    
     
@@ -103,7 +103,7 @@ img {
    justify-content: center;
    align-items: center;
     height: 250px;
-    width: 300px;
+    width: 355px;
     border: 40px solid #FFE7DF; 
 
 }
@@ -166,7 +166,7 @@ ul.experties, li {
 
     img {
         width: 83%;
-        border: 40px solid #FFE7DF;
+        border: 42px solid #FFE7DF;
         margin-top: -5px;
 
     }
